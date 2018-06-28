@@ -1,0 +1,40 @@
+body {
+    background-color: #00FF88;
+}
+
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+.cheatCodes{
+  text-align: center;
+}
+
+.cheatCodes #red{
+  color: #FF0000;
+}
+
+.cheatCodes #green{
+  color: #000000;
+}
+
+.cheatCodes #blue{
+  color: #0000FF;
+}
+
+.instructions{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.startButton {
+  text-align: center;
+  margin-top: 20px;
+}

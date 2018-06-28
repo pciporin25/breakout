@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Peter Ciporin">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- support for this page -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/breakout.js" async></script>
+    <title>JavaScript Breakout</title>
+</head>
+<body>
+
+    <h1>BREAKOUT!</h1>
+    <h2>by Peter Ciporin</h2>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+    <div class="startButton">
+      <button type="button" id="start">Start Game</button>
+    </div>
+
+    <div class="cheatCodes">
+      <h3>Cheat Codes:</h3>
+      <p id="red">Press 'R' to eliminate red bricks</p>
+      <p id="green">Press 'G' to eliminate green bricks</p>
+      <p id="blue">Press 'B' to eliminate blue bricks</p>
+    </div>
+
+    <div class="instructions">
+      <h3>Instructions:</h3>
+      <p>Use your arrow keys or the mouse to move your paddle around the canvas.</p>
+      <p>Bounce the ball to hit all 30 bricks and you win!</p>
+    </div>
+
+</body>
+</html>
